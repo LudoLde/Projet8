@@ -1,0 +1,17 @@
+.navbar-design {
+   display: flex;
+}
+.navbar-logo {
+   width: 125px;
+   margin: 22px 0px 10px 46px;
+}
+.navbar-ul {
+   display: flex;
+   list-style-type: none;
+   margin: 41px 51px 10px auto;
+   padding-inline-start: 0px;
+   color: #ff3f00d1;
+}
+.navbar-accueil {
+   padding-right: 57px;
+}
