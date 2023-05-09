@@ -1,0 +1,26 @@
+.location-container {
+   display: flex;
+   border-radius: 8px;
+   margin: 30px auto 30px auto;
+   padding: 25px 35px 25px 35px;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px 47px;
+   background-color: #80808014;
+   width: 75%;
+   height: auto;
+}
+.location-card {
+   display: flex;
+   background: linear-gradient(179deg, rgba(255, 99, 100, 1) 66%, rgba(128, 49, 49, 1) 100%);
+   width: 24%;
+   height: 233px;
+   border-radius: 6px;
+}
+.location-card-text {
+   color: white;
+   align-self: end;
+   width: 53px;
+   margin: 0px 0px 12px 13px;
+   font-size: 12px;
+}
