@@ -1,5 +1,7 @@
 .navbar-design {
    display: flex;
+   width: 96%;
+   margin: auto;
 }
 .navbar-logo {
    width: 125px;
@@ -13,5 +15,5 @@
    color: #ff6060;
 }
 .navbar-accueil {
-   padding-right: 57px;
+   padding-right: 50px;
 }

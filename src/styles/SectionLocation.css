@@ -2,12 +2,12 @@
    display: flex;
    border-radius: 8px;
    margin: 30px auto 30px auto;
-   padding: 25px 35px 25px 35px;
+   padding: 25px 28px 25px 28px;
    flex-wrap: wrap;
    justify-content: center;
    gap: 40px 47px;
    background-color: #80808014;
-   width: 75%;
+   width: 87%;
    height: auto;
 }
 .location-card {
