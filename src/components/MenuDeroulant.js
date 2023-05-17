@@ -4,10 +4,6 @@ import { useState } from "react";
 const MenuDeroulant = (props) => {
    const { paragraphe, listElement } = props;
    const titre = props.titre;
-   {
-      /*const paraRespect = props.paragraphe;
-const listElement = props.listElement;*/
-   }
    const [isActive, setIsActive] = useState(false);
    const showDetails = () => {
       setIsActive((current) => !current);

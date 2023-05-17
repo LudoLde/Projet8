@@ -1,0 +1,20 @@
+.color {
+   color: #ff6060;
+}
+.error-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.title-error {
+   font-size: 130px;
+   font-family: "montserratbold";
+   margin: 87px 0px 5px 0px;
+}
+.para-error {
+   font-size: 28px;
+}
+.back-menu-error {
+   margin: 175px 0px 50px 0px;
+   color: #ff6060;
+}

@@ -1,13 +1,13 @@
 .menu-deroulant-container {
-   width: 27%;
+   width: 65%;
    height: auto;
-   margin: 10px 30px 0px 30px;
+   margin: 18px 30px 7px 30px;
    display: flex;
    flex-direction: column;
 }
 .menu-deroulant-text {
-   height: 25px;
-   padding: 0px 20px 0px 8px;
+   height: 44px;
+   padding: 0px 20px 0px 17px;
    border-radius: 6px;
    background-color: #ff6060;
    padding-right: 20px;
@@ -16,7 +16,7 @@
    align-items: center;
    margin: 0px;
    color: white;
-   font-size: 14px;
+   font-size: 21px;
    position: relative;
 }
 .menu-deroulant-items {
@@ -24,7 +24,7 @@
    list-style-type: none;
    padding: 19px 0px 19px 15px;
    background-color: #80808014;
-   font-size: 14px;
+   font-size: 22px;
    color: #ff6060;
 }
 .menu-deroulant-items-none {
@@ -32,13 +32,13 @@
 }
 .svg-design {
    position: absolute;
-   bottom: 2px;
-   right: 17px;
-   transform: rotate(180deg);
-   width: 20px;
+   bottom: 9px;
+   right: 25px;
+   width: 24px;
    fill: white;
 }
 .svg-design-active {
-   width: 20px;
+   width: 24px;
    fill: white;
+   transform: rotate(180deg);
 }

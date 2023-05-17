@@ -10,10 +10,19 @@
 .navbar-ul {
    display: flex;
    list-style-type: none;
-   margin: 41px 51px 10px auto;
+   margin: 41px 87px 10px auto;
    padding-inline-start: 0px;
    color: #ff6060;
 }
 .navbar-accueil {
    padding-right: 50px;
+}
+.a {
+   text-decoration: none;
+   color: #ff6060;
+   font-size: 19px;
+}
+.a-actived {
+   color: #ff6060;
+   font-size: 19px;
 }
