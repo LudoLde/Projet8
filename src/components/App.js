@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Home from "../pages/Home";
 import APropos from "../pages/APropos";
 import NotFound from "./Error";
+import Logements from "../pages/Logements";
 
 const App = () => {
    return (
@@ -11,6 +12,7 @@ const App = () => {
          <NavBar />
          <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/logements/:id" element={<Logements />}></Route>
             <Route path="/a-propos" element={<APropos />}></Route>
             <Route path="*" element={<NotFound />}></Route>
          </Routes>

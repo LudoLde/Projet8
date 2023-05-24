@@ -1,0 +1,39 @@
+.logements-container-infos {
+   color: #ff6060;
+   width: 89%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.logement-infos {
+   width: 86%;
+}
+.logement-infos-title {
+   font-size: 32px;
+   margin: 0;
+}
+.logement-infos-emplacement {
+   margin-top: 2px;
+}
+
+.info-proprietaire-container {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   margin-right: 15px;
+}
+.info-proprietaire-para {
+   width: min-content;
+   text-align: end;
+   margin-right: 10px;
+}
+.info-proprietaire-image {
+   width: 65px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.logements-description {
+   width: 90%;
+   display: flex;
+}

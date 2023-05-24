@@ -1,12 +1,14 @@
 import "../styles/Tag.css";
+import data from "../data/data.json";
 
-const Tag = () => {
+const Tag = (props) => {
+   const elements = data;
+   const listTag = props.listTag;
+   console.log(elements);
    return (
-      <div
-         className="tag-design
-        ">
-         <p>Tag-name</p>
-      </div>
+      <ul>
+         <li>{`${listTag}`}</li>
+      </ul>
    );
 };
 export default Tag;
