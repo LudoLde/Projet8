@@ -22,9 +22,9 @@
 .menu-deroulant-items {
    margin: 0;
    list-style-type: none;
-   padding: 19px 0px 19px 15px;
+   padding: 19px 10px 19px 15px;
    background-color: #80808014;
-   font-size: 22px;
+   font-size: 17px;
    color: #ff6060;
 }
 .menu-deroulant-items-none {

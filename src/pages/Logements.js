@@ -2,10 +2,9 @@ import { useParams } from "react-router-dom";
 import data from "../data/data.json";
 import MenuDeroulant from "../components/MenuDeroulant";
 import "../styles/Logements.css";
-import Carroussel from "../components/Carroussel";
+import Carousel from "../components/Carousel";
 
 const Logements = () => {
-   const elements = data;
    const params = useParams();
    const element = data.find((element) => element.id === params.id);
    let names = element.host.name;
@@ -13,7 +12,7 @@ const Logements = () => {
 
    return (
       <section className="logements-container-infos">
-         <Carroussel />
+         <Carousel />
          <div className="logement-infos">
             <p className="logement-infos-title">{element.title}</p>
             <p className="logement-infos-emplacement">{element.location}</p>

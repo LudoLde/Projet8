@@ -29,3 +29,40 @@
    left: 25px;
    text-shadow: 0 0 white;
 }
+@media (max-width: 1048px) {
+   .location-card-text {
+      font-size: 11px;
+      left: 12px;
+   }
+   .location-image-card {
+      height: 205px;
+   }
+}
+
+@media (max-width: 869px) {
+   .location-cards {
+      width: 43%;
+   }
+}
+@media (max-width: 630px) {
+   .location-cards {
+      width: 77%;
+   }
+   .location-image-card {
+      height: 245px;
+   }
+   .location-card-text {
+      font-size: 17px;
+   }
+}
+@media (max-width: 390px) {
+   .location-container {
+      background-color: white;
+      margin: 0px auto 0px;
+      padding: 0;
+      width: 98%;
+   }
+   .location-cards {
+      width: 100%;
+   }
+}

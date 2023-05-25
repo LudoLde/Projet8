@@ -1,3 +1,18 @@
 .banner-a-propos {
    margin-bottom: 15px;
+   width: 100%;
+   border-radius: 25px;
+}
+
+@media (max-width: 390px) {
+   .banner-a-propos {
+      height: 195px;
+      border-radius: 18px;
+      object-fit: fill;
+   }
+   .banner-apropos-container {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+   }
 }

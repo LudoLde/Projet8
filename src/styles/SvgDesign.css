@@ -1,0 +1,14 @@
+.arrow-right {
+   width: 69px;
+   top: 35%;
+   cursor: pointer;
+   position: absolute;
+   right: 30px;
+}
+.arrow-left {
+   width: 69px;
+   top: 35%;
+   cursor: pointer;
+   position: absolute;
+   left: 30px;
+}

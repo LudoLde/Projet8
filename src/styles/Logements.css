@@ -1,12 +1,12 @@
 .logements-container-infos {
    color: #ff6060;
-   width: 89%;
+   width: 91%;
    margin: auto;
    display: flex;
    flex-wrap: wrap;
 }
 .logement-infos {
-   width: 86%;
+   width: 88%;
 }
 .logement-infos-title {
    font-size: 32px;
@@ -20,7 +20,6 @@
    display: flex;
    align-items: center;
    justify-content: end;
-   margin-right: 15px;
 }
 .info-proprietaire-para {
    width: min-content;
@@ -34,6 +33,11 @@
 }
 
 .logements-description {
-   width: 90%;
+   width: 100%;
    display: flex;
+   justify-content: space-between;
+}
+.logement-menuderoulant {
+   width: 45%;
+   margin: 0;
 }
