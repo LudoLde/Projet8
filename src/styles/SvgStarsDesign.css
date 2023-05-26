@@ -1,0 +1,9 @@
+.stars-container {
+   display: flex;
+   width: 100%;
+   justify-content: end;
+   column-gap: 10px;
+}
+.stars-design {
+   width: 26px;
+}

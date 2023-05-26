@@ -1,13 +1,18 @@
 import "../styles/Tag.css";
 import data from "../data/data.json";
+import { useParams } from "react-router-dom";
 
-const Tag = (props) => {
-   const elements = data;
-   const listTag = props.listTag;
-   console.log(elements);
+const Tag = () => {
+   const params = useParams();
+   const element = data.find((element) => element.id === params.id);
+   const TagList = element.tags;
    return (
-      <ul>
-         <li>{`${listTag}`}</li>
+      <ul className="tag-container">
+         {TagList.map((tag, index) => (
+            <li key={index} className="tag-design-li">
+               {tag}
+            </li>
+         ))}
       </ul>
    );
 };

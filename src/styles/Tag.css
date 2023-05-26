@@ -1,7 +1,17 @@
-.tag-design {
+.tag-design-li {
    color: white;
+   list-style-type: none;
+   font-size: 13px;
    background-color: #ff3f00d1;
-   width: 97px;
-   border-radius: 7px 7px;
+   width: fit-content;
+   height: 25px;
+   border-radius: 18px;
    text-align: center;
+   padding: 3px 12px 0px;
+}
+.tag-container {
+   display: flex;
+   column-gap: 1%;
+   margin: 19px 0px 20px 0px;
+   padding: 0;
 }
