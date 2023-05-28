@@ -1,6 +1,6 @@
 .arrow-right {
-   width: 69px;
-   top: 35%;
+   width: 32px;
+   top: 45%;
    cursor: pointer;
    position: absolute;
    right: 30px;
@@ -11,4 +11,16 @@
    cursor: pointer;
    position: absolute;
    left: 30px;
+}
+@media (max-width: 400px) {
+   .arrow-left {
+      width: 23px;
+      top: 129px;
+      left: 8px;
+   }
+   .arrow-right {
+      width: 23px;
+      top: 129px;
+      right: 8px;
+   }
 }

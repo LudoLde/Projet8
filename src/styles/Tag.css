@@ -15,3 +15,11 @@
    margin: 19px 0px 20px 0px;
    padding: 0;
 }
+
+@media (max-width: 400px) {
+   .tag-design-li {
+      font-size: 11px;
+      padding: 5px 12px 0px;
+      height: 23px;
+   }
+}

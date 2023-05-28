@@ -50,3 +50,31 @@
    width: 45%;
    margin: 0;
 }
+
+@media (max-width: 400px) {
+   .logements-container-infos {
+      width: 100%;
+   }
+   .logement-infos-container {
+      grid-template-columns: 1fr;
+   }
+   .info-proprietaire-container {
+      flex-direction: row;
+      justify-content: initial;
+      flex-wrap: initial;
+      height: 60px;
+   }
+   .logement-infos-container-1 {
+      padding-top: 0px;
+   }
+   .info-proprietaire-para {
+      order: 2;
+   }
+   .info-proprietaire-image {
+      order: 3;
+   }
+
+   .logements-description {
+      flex-direction: column;
+   }
+}

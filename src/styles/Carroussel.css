@@ -33,3 +33,14 @@
 .left {
    left: 30px;
 }
+
+@media (max-width: 400px) {
+   .carousel {
+      width: 98%;
+      margin: 13px auto 0px;
+   }
+   .carousel-images {
+      height: 278px;
+      object-fit: contain;
+   }
+}

@@ -1,10 +1,7 @@
 import data from "../data/data.json";
 import "../styles/Carroussel.css";
-import arrowright from "../assets/arrowright.svg";
-import arrowleft from "../assets/arrowleft.svg";
 import { useParams } from "react-router-dom";
 import React, { useState } from "react";
-import Svg from "./SvgRight";
 import SvgRight from "./SvgRight";
 import SvgLeft from "./SvgLeft";
 
