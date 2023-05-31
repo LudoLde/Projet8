@@ -1,0 +1,68 @@
+.location-container {
+   display: flex;
+   border-radius: 8px;
+   margin: 30px auto 30px auto;
+   padding: 25px 28px 25px 28px;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px 47px;
+   background-color: #80808014;
+   width: 87%;
+   height: auto;
+}
+.location-cards {
+   text-decoration: none;
+   width: 28%;
+   position: relative;
+}
+.location-image-card {
+   width: 100%;
+   height: 233px;
+   border-radius: 6px;
+}
+.location-card-text {
+   color: white;
+   width: 230px;
+   font-size: 15px;
+   position: absolute;
+   bottom: 5px;
+   left: 25px;
+   text-shadow: 0 0 white;
+}
+@media (max-width: 1048px) {
+   .location-card-text {
+      font-size: 11px;
+      left: 12px;
+   }
+   .location-image-card {
+      height: 205px;
+   }
+}
+
+@media (max-width: 869px) {
+   .location-cards {
+      width: 43%;
+   }
+}
+@media (max-width: 630px) {
+   .location-cards {
+      width: 77%;
+   }
+   .location-image-card {
+      height: 245px;
+   }
+   .location-card-text {
+      font-size: 17px;
+   }
+}
+@media (max-width: 390px) {
+   .location-container {
+      background-color: white;
+      margin: 0px auto 0px;
+      padding: 0;
+      width: 98%;
+   }
+   .location-cards {
+      width: 100%;
+   }
+}

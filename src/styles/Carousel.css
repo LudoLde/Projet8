@@ -1,0 +1,46 @@
+.carousel {
+   width: 100%;
+   position: relative;
+   margin: 13px 0px 20px 0px;
+}
+.carousel-images {
+   display: block;
+   margin: auto;
+   height: 420px;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 25px;
+}
+.carousel-compteur {
+   position: absolute;
+   bottom: 7px;
+   left: 50%;
+   color: white;
+   font-size: 19px;
+}
+.carousel-btn {
+   display: contents;
+}
+.carousel-arrow {
+   width: 73px;
+   top: 35%;
+   cursor: pointer;
+   position: absolute;
+}
+.right {
+   right: 30px;
+}
+.left {
+   left: 30px;
+}
+
+@media (max-width: 400px) {
+   .carousel {
+      width: 98%;
+      margin: 13px auto 0px;
+   }
+   .carousel-images {
+      height: 278px;
+      object-fit: contain;
+   }
+}

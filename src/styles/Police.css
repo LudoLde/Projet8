@@ -1,0 +1,13 @@
+@font-face {
+   font-family: "montserratbold";
+   src: url("../polices/montserrat-bold-webfont.woff2") format("woff2"), url("../polices/montserrat-bold-webfont.woff") format("woff");
+}
+@font-face {
+   font-family: "montserratregular";
+   src: url("../polices/montserrat-regular-webfont.woff2") format("woff2"), url("../polices/montserrat-regular-webfont.woff") format("woff");
+}
+
+body,
+html {
+   font-family: "montserratregular";
+}

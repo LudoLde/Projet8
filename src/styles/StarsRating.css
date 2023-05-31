@@ -1,0 +1,28 @@
+.stars-container {
+   display: flex;
+   width: 100%;
+   justify-content: flex-end;
+   column-gap: 7px;
+}
+.stars-empty {
+   color: rgb(227, 227, 227);
+   width: 26px;
+}
+.stars-full {
+   color: #ff6060;
+   width: 26px;
+}
+
+@media (max-width: 400px) {
+   .stars-container {
+      justify-content: left;
+      column-gap: 2px;
+      order: 1;
+   }
+   .stars-empty {
+      font-size: 20px;
+   }
+   .stars-full {
+      font-size: 20px;
+   }
+}
