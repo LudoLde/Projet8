@@ -1,5 +1,5 @@
 import data from "../data/data.json";
-import "../styles/Carroussel.css";
+import "../styles/Carousel.css";
 import { useParams } from "react-router-dom";
 import React, { useState } from "react";
 import SvgRight from "./SvgRight";
@@ -19,19 +19,24 @@ const Carousel = () => {
    const nextImage = () => {
       setCurrentImageIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
    };
+   const showBtns = images.length > 1;
 
    return (
       <div className="carousel">
          <p className="carousel-compteur">
             {currentImageIndex + 1}/{images.length}
          </p>
-         <button className="carousel-btn" onClick={nextImage}>
-            <SvgRight />
-         </button>
-         <img src={images[currentImageIndex]} alt="carousel-image" className="carousel-images" />
-         <button className="carousel-btn" onClick={previousImage}>
-            <SvgLeft />
-         </button>
+         {showBtns && (
+            <button className="carousel-btn" onClick={nextImage}>
+               <SvgRight />
+            </button>
+         )}
+         <img src={images[currentImageIndex]} alt="carousel" className="carousel-images" />
+         {showBtns && (
+            <button className="carousel-btn" onClick={previousImage}>
+               <SvgLeft />
+            </button>
+         )}
       </div>
    );
 };

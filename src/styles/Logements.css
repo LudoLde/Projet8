@@ -25,7 +25,7 @@
 .info-proprietaire-container {
    display: flex;
    align-items: center;
-   justify-content: end;
+   justify-content: flex-end;
    flex-wrap: wrap;
    height: 116px;
 }
