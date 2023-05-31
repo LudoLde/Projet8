@@ -1,10 +1,7 @@
 import "../styles/Tag.css";
-import data from "../data/data.json";
-import { useParams } from "react-router-dom";
 
-const Tag = () => {
-   const params = useParams();
-   const element = data.find((element) => element.id === params.id);
+const Tag = (props) => {
+   const element = props.element;
    const TagList = element.tags;
    return (
       <ul className="tag-container">
