@@ -1,5 +1,5 @@
-import Tag from "../components/Tag";
 import "../styles/Logements.css";
+import Tag from "./Tag";
 
 const LogementInfo = (props) => {
    const element = props.element;
@@ -7,7 +7,7 @@ const LogementInfo = (props) => {
       <div className="logement-infos-container-1">
          <p className="logement-infos-title">{element.title}</p>
          <p className="logement-infos-emplacement">{element.location}</p>
-         <Tag />
+         <Tag element={element} />
       </div>
    );
 };

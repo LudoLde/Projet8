@@ -1,7 +1,7 @@
-import "../styles/Logements.css";
 import StarRating from "../components/StarsRating";
+import "../styles/Logements.css";
 
-const LogementProrio = (props) => {
+const LogementProprio = (props) => {
    const element = props.element;
    let names = element.host.name;
    const rating = element.rating;
@@ -14,4 +14,4 @@ const LogementProrio = (props) => {
       </div>
    );
 };
-export default LogementProrio;
+export default LogementProprio;

@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Home from "../pages/Home";
 import APropos from "../pages/APropos";
-import NotFound from "./Error";
 import Logements from "../pages/Logements";
+import ErrorPage from "../pages/ErrorPage";
 
 const App = () => {
    return (
@@ -14,7 +14,7 @@ const App = () => {
             <Route path="/" element={<Home />}></Route>
             <Route path="/logements/:id" element={<Logements />}></Route>
             <Route path="/a-propos" element={<APropos />}></Route>
-            <Route path="*" element={<NotFound />}></Route>
+            <Route path="*" element={<ErrorPage />}></Route>
          </Routes>
          <Footer />
       </div>
