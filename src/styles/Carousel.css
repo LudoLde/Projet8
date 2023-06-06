@@ -43,4 +43,7 @@
       height: 278px;
       object-fit: contain;
    }
+   .carousel-compteur {
+      display: none;
+   }
 }
